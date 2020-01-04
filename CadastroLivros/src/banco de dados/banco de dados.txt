@@ -1,0 +1,7 @@
+CREATE DATABASE projetojava;
+CREATE TABLE `livro` (
+ `id` bigint(10) NOT NULL AUTO_INCREMENT,
+ `descricao` varchar(255) DEFAULT NULL,
+ `autor` varchar(255) DEFAULT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1
